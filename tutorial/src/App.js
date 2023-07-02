@@ -7,10 +7,7 @@ import Profile from './components/Profile';
 function App() {
     return (
         <div className="App">
-            <Profile name="Ivy" lastname="Tan">
-              <h3>This is a profile of a person</h3>
-            </Profile>
-            <Profile name="Catherine" lastname="Jones" />
+            <Message messagecode="10" messagecontent="This is a message from props"/>
         </div>
     );
 }
