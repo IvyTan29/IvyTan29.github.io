@@ -8,16 +8,18 @@ import FunctionalCounter from './components/FunctionalCounter';
 import Resume from './components/Resume';
 import FunctionEvent from './components/FunctionEvent';
 import ClassEvent from './components/ClassEvent';
+import ConditionalComponent from './components/ConditionalComponent';
 
 function App() {
     return (
         <div className="App">
             {/* <Profile name="Ivy" lastname="Tan" /> */}
             {/* <Counter></Counter> */}
-            <FunctionalCounter></FunctionalCounter>
+            {/* <FunctionalCounter></FunctionalCounter> */}
             {/* <Resume name="Ivy"></Resume> */}
             {/* <FunctionEvent></FunctionEvent> */}
             {/* <ClassEvent></ClassEvent> */}
+            <ConditionalComponent></ConditionalComponent>
         </div>
     );
 }
