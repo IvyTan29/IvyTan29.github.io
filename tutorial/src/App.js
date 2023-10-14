@@ -9,6 +9,7 @@ import Resume from './components/Resume';
 import FunctionEvent from './components/FunctionEvent';
 import ClassEvent from './components/ClassEvent';
 import ConditionalComponent from './components/ConditionalComponent';
+import Product from './components/Product';
 
 function App() {
     return (
@@ -19,7 +20,8 @@ function App() {
             {/* <Resume name="Ivy"></Resume> */}
             {/* <FunctionEvent></FunctionEvent> */}
             {/* <ClassEvent></ClassEvent> */}
-            <ConditionalComponent></ConditionalComponent>
+            {/* <ConditionalComponent></ConditionalComponent> */}
+            <Product></Product>
         </div>
     );
 }
