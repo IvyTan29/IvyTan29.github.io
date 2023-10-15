@@ -10,6 +10,7 @@ import FunctionEvent from './components/FunctionEvent';
 import ClassEvent from './components/ClassEvent';
 import ConditionalComponent from './components/ConditionalComponent';
 import Product from './components/Product';
+import Form from './components/Form'
 
 function App() {
     return (
@@ -21,7 +22,8 @@ function App() {
             {/* <FunctionEvent></FunctionEvent> */}
             {/* <ClassEvent></ClassEvent> */}
             {/* <ConditionalComponent></ConditionalComponent> */}
-            <Product></Product>
+            {/* <Product></Product> */}
+            <Form></Form>
         </div>
     );
 }
